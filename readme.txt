@@ -10,3 +10,7 @@ mkdir dist
 vmi dist/index.html
 npm install --save lodash
 npx webpack
+vmi webpack.config.js
+npx webpack --config webpack.config.js
+vmi package.json
+npm run build
